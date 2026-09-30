@@ -1,0 +1,13 @@
+#pragma once
+
+#define OFCL_VERSION_MAJOR @PROJECT_VERSION_MAJOR@
+#define OFCL_VERSION_MINOR @PROJECT_VERSION_MINOR@
+#define OFCL_VERSION_PATCH @PROJECT_VERSION_PATCH@
+#define OFCL_VERSION_STRING "@PROJECT_VERSION@"
+
+namespace ofcl {
+constexpr const char* version() noexcept { return OFCL_VERSION_STRING; }
+constexpr int version_major() noexcept { return OFCL_VERSION_MAJOR; }
+constexpr int version_minor() noexcept { return OFCL_VERSION_MINOR; }
+constexpr int version_patch() noexcept { return OFCL_VERSION_PATCH; }
+}  // namespace ofcl

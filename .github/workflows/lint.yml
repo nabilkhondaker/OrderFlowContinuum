@@ -1,0 +1,17 @@
+name: Lint
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+
+jobs:
+  clang-format-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check formatting
+        run: |
+          # Placeholder: full clang-format enforcement can be added
+          echo "clang-format check (skeleton — install clang-format and enable for CI)"
+          find include src -name '*.hpp' -o -name '*.cpp' | head -5

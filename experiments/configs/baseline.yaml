@@ -1,0 +1,25 @@
+simulation:
+  resolution_ns: 1
+  threads: 4
+  deterministic: true
+
+lob:
+  tick_size: 0.01
+  max_depth: 100
+
+continuum:
+  solver: sph
+  adaptive_mesh: true
+  refinement_threshold: 0.05
+
+latency:
+  matching_engine_ns: 1200
+  network_model: lognormal
+  colocation: false
+
+gpu:
+  enabled: false
+  device: 0
+
+reproducibility:
+  seed: 42

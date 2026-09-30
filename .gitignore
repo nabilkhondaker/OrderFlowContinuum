@@ -1,0 +1,56 @@
+# Build
+build/
+cmake-build-*/
+out/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.dll
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+.pytest_cache/
+
+# Data / results (keep structure)
+data/synthetic/*.bin
+data/sample_ticks/*.csv
+experiments/results/*
+!experiments/results/.gitkeep
+
+# Logs / reports
+*.log
+reports/
+artifacts/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Coverage
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# CUDA
+*.ptx
+*.cubin

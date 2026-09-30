@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Khondaker
+    given-names: Nabil
+title: "OrderFlow Continuum Lab"
+version: 0.1.0
+date-released: 2026-09-29
+url: "https://github.com/nabilkhondaker/orderflow-continuum-lab"
+license: MIT
+abstract: >
+  A research-oriented lock-free multi-threaded C++17/20 engine that simulates
+  a full limit-order-book exchange at nanosecond resolution and couples it to
+  a continuum-mechanics solver treating liquidity as a deformable continuum
+  with stress and strain fields.
+keywords:
+  - high-frequency trading
+  - market microstructure
+  - limit order book
+  - continuum mechanics
+  - lock-free programming
+  - SPH
+  - adaptive mesh refinement
+  - GPU computing
