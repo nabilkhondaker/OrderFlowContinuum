@@ -20,7 +20,7 @@ Continuum Solver (SPH / FEM + Adaptive Mesh)
 GPU Particle Field (optional) ──► Real-time Stress / Strain Visualization + Metrics
 ```
 
-📢 **Release Notice:** This repository contains the complete codebase for this project, engineered between *September 7, 2026* and *September 30, 2026*. The work was developed intermittently alongside other research software and has been packaged in full for public viewing and use. Relative to my other projects this one is more ambitious in scope — a hybrid discrete limit-order-book plus continuum layer instead of a single-domain simulator — but the honest reason it exists is practical: I built it to deepen my own understanding of order flow and microstructure while day trading, not to ship a trading product or claim an edge.
+📢 **Release Notice:** This repository contains the complete codebase for this project, engineered between *September 7, 2025* and *September 30, 2026*. The work was developed intermittently alongside other research software and has been packaged in full for public viewing and use. Relative to my other projects this one is more ambitious in scope — a hybrid discrete limit-order-book plus continuum layer instead of a single-domain simulator — but the honest reason it exists is practical: I built it to deepen my own understanding of order flow and microstructure while day trading, not to ship a trading product or claim an edge.
 
 **Author:** Nabil Khondaker
 
